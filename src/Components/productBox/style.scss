@@ -1,0 +1,95 @@
+.productBox {
+    width: 350px;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.ProdContainer {
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+}
+
+.ProdList {
+    width: calc(100% - 300px);
+    height: 100vh;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 1 50px 6px rgb(6, 18, 88);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(34, 7, 131, 1);
+}
+
+.productImage {
+    width: 250px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 0.5px solid rgb(117, 13, 13);
+
+
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid rgb(117, 13, 13);
+}
+
+.ProdList {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.slick-slider {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filters {
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.24);
+    overflow: auto;
+    font-size: 25px;
+}
+
+.categoryInfo  { width: 100%;
+    height: 45px;
+       
+}
+.categoryInfo:hover{
+    cursor: pointer;
+    background-color: rgba(108, 4, 226, 0.103);
+}
